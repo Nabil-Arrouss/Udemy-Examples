@@ -24,7 +24,7 @@ public class Car {
         return doors;
     }
 
-    public boolean isConvertible() {           // Getter retrieve data and returns it !!!
+    public boolean isConvertible() {           
         return convertible;
     }
 
