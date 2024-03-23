@@ -1,29 +1,26 @@
-//Nabil Arrouss
-//VUZDOW
-
 import java.util.ArrayList;
 import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
 
-        // Created an Arraylist type String
+        // Create an ArrayList of Strings
         ArrayList<String> myArrayList = new ArrayList<>();
 
-        //Added few Strings to the arraylist
+        // Add elements to the ArrayList
         myArrayList.add("Hey");
         myArrayList.add("Apple");
         myArrayList.add("Juice");
 
-        //To print the elements inside the arraylist
+        // Print the elements of the ArrayList
         System.out.println(myArrayList);
 
-        //To print the last/left element in the array by calling the method "printLeftElement" on the arraylist
+        // Print the last/left element in the ArrayList after removing elements randomly
         System.out.println(printLeftElement(myArrayList));
 
     }
 
-    //Declared a method return type String,
-    // this method will remove elements randomly from the arraylist and print the last/left element
+    // Method to remove elements randomly and print the left element
     static String printLeftElement (ArrayList<String> list) {
 
         //Create an instance of Random to randomize the index number
