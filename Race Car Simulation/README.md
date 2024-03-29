@@ -2,12 +2,6 @@
 
 This Java program simulates a race involving different types of cars such as gas-powered, electric, and hybrid. Each type of car has its own engine startup and engine running behavior.
 
-## Usage
-
-1. Clone the repository.
-2. Compile the Java files.
-3. Run the Main class.
-
 ## Car Classes
 
 ### `Car`
